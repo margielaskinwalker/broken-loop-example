@@ -1,0 +1,51 @@
+#include<iostream>
+using namespace std;
+
+
+
+
+int main() {
+	
+	
+	// problem 1
+	for (int i = 0; i < 70; i += 10) {
+		cout << i << " ";
+
+	}
+	cout << endl;
+	for (int j = 20; j > -19; j -= 1) {
+		cout << j << " ";
+
+	}
+	cout << endl;
+	for (int p = 3; p < 1875; p *= 5) {
+		cout << p << " ";
+	}
+	cout << endl;
+	
+
+	
+
+	// problem 2
+	for (int u = 0; u < 12; u++) {
+		for (int p = 0; p < 8; p++) {
+
+			cout << "*";
+		}
+		cout << "\n";
+	}
+
+	
+	//problem3
+	//funny wont fix :)
+	while (1) {
+		int num;
+		cout << "how many times you like to shuffle your cards" << endl;
+		cin >> num;
+
+		for (int n = 0; n <= 10; num++) {
+			cout << "shuffle";
+		}
+		
+	}
+}
